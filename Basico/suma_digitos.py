@@ -1,3 +1,15 @@
+"""
+    DESCRIPCION DEL RETO:
+
+    Escribe un programa en Python que calcule la suma de los dígitos de un número entero
+    positivo que ingrese el usuario. Si el número ingresado no es un entero positivo, el
+    programa debe mostrar un mensaje de error.
+
+    Por ejemplo, si el usuario ingresa el número 1234, el programa debe imprimir la suma
+    de los dígitos, que es 10 (1 + 2 + 3 + 4).
+"""
+
+
 def run(user_number):
     try:
         number = []
