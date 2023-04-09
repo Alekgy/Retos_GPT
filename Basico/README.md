@@ -10,7 +10,8 @@ Cada archivo de reto incluye las instrucciones y descripción del reto en el mis
 
    - Abre una terminal o línea de comandos en tu máquina.
    - Navega a la carpeta donde está ubicado el archivo del reto que deseas ejecutar.
-   - Ejecuta el archivo escribiendo python nombre_del_archivo.py en la terminal (reemplaza nombre_del_archivo con el nombre del archivo del reto que deseas ejecutar).
+   - Ejecuta el archivo escribiendo en la terminal (reemplaza nombre_del_archivo con el nombre del archivo del reto que deseas ejecutar).
+       ```python nombre_del_archivo.py```
    - Verifica la salida en la terminal para ver si has resuelto el reto correctamente.
 
 ¡Esperamos que estos retos te ayuden a mejorar tus habilidades en Python! Si tienes alguna pregunta o sugerencia para nuevos retos, no dudes en crear un nuevo problema en este repositorio. ¡Diviértete!
