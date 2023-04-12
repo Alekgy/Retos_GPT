@@ -10,3 +10,26 @@
     como P = 2 * pi * r, donde r es el radio y pi es una constante con un valor
     aproximado de 3.14159.
 """
+
+
+pi = 3.14159
+
+
+def area(user):    
+    result = pi * user ** 2
+    result = round(result, 2)
+    print(f'El area del radio {user} es {result}')
+
+
+def perimetro(user):
+    result = 2 * pi *user
+    result = round(result, 2)
+    print(f'El perimetro de {user} es {result}')
+
+
+
+if __name__ == '__main__':
+    print(' ')
+    user = int(input('Ingresa el radio del circulo a hayar area y perimetro: '))
+    area(user)
+    perimetro(user)
