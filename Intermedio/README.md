@@ -3,9 +3,9 @@
 Este directorio contiene una serie de retos de programación en Python para aquellos que deseen mejorar sus habilidades intermedias en el lenguaje. Los retos varían en dificultad y están diseñados para ser solucionados en cualquier orden.
 ## Requerimientos
 
-Para ejecutar los archivos de estos retos, es necesario tener Python instalado en tu máquina. Si algún reto requiere el uso de una librería específica, se mencionará en el archivo README correspondiente y se proporcionará un archivo requirements.txt en la carpeta del reto.
+- Para ejecutar los archivos de estos retos, es necesario tener Python instalado en tu máquina. Si algún reto requiere el uso de una librería específica, se mencionará en el archivo README correspondiente y se proporcionará un archivo requirements.txt en la carpeta del reto.
 
-Para instalar las librerías necesarias, asegúrate de tener pip instalado en tu máquina y ejecuta el siguiente comando en la terminal:
+- Para instalar las librerías necesarias, asegúrate de tener pip instalado en tu máquina y ejecuta el siguiente comando en la terminal:
 
 ```pip install -r requirements.txt```
 
