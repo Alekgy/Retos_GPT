@@ -8,7 +8,7 @@ Para ejecutar los archivos de estos retos, es necesario tener Python instalado e
 Para instalar las librerías necesarias, asegúrate de tener pip instalado en tu máquina y ejecuta el siguiente comando en la terminal:
 
 ```pip install -r requirements.txt```
-`
+
 ## Cómo ejecutar los archivos
 
 Cada archivo de reto incluye las instrucciones y descripción del reto en el mismo archivo. Para ejecutar el código de cada archivo, sigue estos pasos:
