@@ -17,6 +17,6 @@ En los retos POO es común utilizar librerías como unittest para realizar prueb
 
 Para instalar las librerías necesarias, asegúrate de tener pip instalado en tu máquina y ejecuta el siguiente comando en la terminal:
 
-```pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 ¡Esperamos que estos retos te ayuden a mejorar tus habilidades en POO en Python! Si tienes alguna pregunta o sugerencia para nuevos retos, no dudes en crear un nuevo problema en este repositorio. ¡Diviértete!
