@@ -1,5 +1,5 @@
 """
-    DESCRIPCION DEL RETO:
+    DESCRIPCION DEL RETO BASICO:
 
     Crea una clase llamada "Circulo" que tenga un atributo "radio" y dos métodos: uno para calcular el área del círculo y otro para calcular la circunferencia del círculo. Puedes usar la constante pi de la librería math para hacer los cálculos.
 """

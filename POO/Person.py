@@ -1,5 +1,5 @@
 """
-    DESCRIPCION DEL RETO:
+    DESCRIPCION DEL RETO BASICO:
 
     Crea una clase llamada "Persona" que tenga los atributos "nombre" y "edad". La clase debe tener un método llamado "presentarse" que imprima un mensaje de la forma "Hola, mi nombre es {nombre} y tengo {edad} años".
 """
