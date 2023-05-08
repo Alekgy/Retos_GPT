@@ -15,21 +15,15 @@
 
     - Permitir al usuario guardar los cambios en el archivo CSV.
 
-    Para hacerlo más interesante, puedes implementar algunas de las siguientes funcionalidades adicionales:
-
-    - Validar que los campos ingresados por el usuario sean válidos (por ejemplo, que el precio sea un número válido y la cantidad disponible sea un número entero positivo).
-    - Ordenar la lista de productos por nombre, precio o cantidad disponible.
-    - Permitir al usuario eliminar un producto de la lista.
-    - Agregar una opción para mostrar solo productos con una cantidad disponible menor que un valor dado.
-    - Agregar una opción para mostrar solo productos que estén dentro de un rango de precios dado.
 """
+
 import sqlite3
 import csv
 
 ruta_csv = '/home/alejandro/ALEJANDRO/Retos_GPT/Avanzado/Archivo.csv'
 ruta_db = '/home/alejandro/ALEJANDRO/Retos_GPT/Avanzado/DB.db'
 
-class Productos:
+class Products:
     def __init__(self, nombre, categoria, ruta_db):
         self.nombre = nombre
         self.categoria = categoria
@@ -99,7 +93,15 @@ def conexion(ruta_csv, ruta_db):
             cursor.execute('INSERT INTO Productos (Nombre, Categoria, Precio, Cantidad_disponible) VALUES (?, ?, ?, ?)', (fila['Nombre'], fila['Categoria'], fila['Precio'], fila['Cantidad_disponible']))
 
     conexion.commit()
-    conexion.close()
 
-def save_change():
-    pass
+def save_change(ruta_csv, Productos, ruta_db):
+    conexion = sqlite3.connect(ruta_db)
+    cursor = conexion.cursor()
+
+    cursor.execute(f'SELECT * FROM {Productos}')
+    filas = cursor.fetchall()
+
+    with open(ruta_csv, 'w', newline='') as archivo_csv:
+        escritor = csv.writer(archivo_csv)
+        escritor.writerows(filas)
+
